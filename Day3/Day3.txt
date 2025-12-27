@@ -1,0 +1,12 @@
+Datatypes in javascript:
+===================
+1. Primitive Datatypes
+        number : 
+        string  :
+        boolean :
+        undefined :
+        bigint :l
+        symbol :
+
+2. Non Primitive Datatypes
+        object : 
