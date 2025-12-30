@@ -1,0 +1,31 @@
+Arrow Fucntion
+===============
+-compact syntac {reduces the number of lines of code (hardly 1 line of code)}
+- implicit return (no need to wirte return sometimes yes)
+-no fucntion keyword 
+- no body {}
+-doesn't have it own 'this' value,; it uses 'this' value from lexical/(outer) scope 
+-'this' value is always static 
+
+
+'this' in function
+==========================
+Regular : 'this' - how /where the func is called 
+Arrow: 'this' - where the fucntion is written
+
+
+
+Arrow function Limitations 
+============
+-should not be used as obj methods 
+-not be used if we expect this value to be dynamic inside a func
+
+Regular Fucntion Limitations  
+=============================
+Note: when we call a regular fucntion with a 
+
+
+
+keywords:
+========
+lexcial scope

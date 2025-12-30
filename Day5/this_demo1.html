@@ -1,0 +1,14 @@
+<script>
+    //this = current coontext/obj where the code is being executed 
+
+    console.log(this);  //this = window
+    class Student{
+        f1(){
+            console.log('f1::'.this); //this= student
+        }
+        f2 = () => {
+            console.log('f2::'.this);//this= student
+        }
+    }
+
+</script>
