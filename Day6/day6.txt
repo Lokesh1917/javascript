@@ -1,0 +1,19 @@
+Higher order fun
+=====================
+fun==higher order
+-func returns another fun
+-function takes another func as argument
+
+the fucntion which is passed as argument is called callback 
+
+
+
+Closure
+=========
+we should 
+
+
+---Assignment----
+1.WAP to implement increment , decrement and rest fucntionality buttons using closure fucntion 
+--- the ui should be buttons
+
