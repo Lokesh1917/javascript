@@ -1,0 +1,30 @@
+////Q1. Write a program to implement increment,decrement,reset functionality using closure
+<body>
+    <h1>Count::<span>0</span></h1>
+    
+    <button onclick="increment()">Increment</button>
+    <button onclick="decrement()">Decrement</button>
+    <button onclick="reset()">Reset</button>
+    <script>
+        // Using closure to maintain count state
+        const counter = (function() {
+            let count = 0; // Private variable in closure
+            
+            // Expose functions to global scope
+            window.increment = function() {
+                count++;
+                document.querySelector("span").innerText = count;
+            };
+            
+            window.decrement = function() {
+                count--;
+                document.querySelector("span").innerText = count;
+            };
+            
+            window.reset = function() {
+                count = 0;
+                document.querySelector("span").innerText = count;
+            };
+        })();
+    </script>
+</body>
